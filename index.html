@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="بديلك - أسرع دويـل للبحث عن بدائل الأدوية المصرية بنفس المادة الفعالة والتركيز والشكل الصيدلي.">
+  <title>بديلك | بدائل الأدوية في مصر</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1) TOP HEADER BAND -->
+  <header class="header-band">
+    <div class="header-container">
+      <!-- Row 1 (RTL): Logo & App Name (Right) + Dynamic Stats Badge (Left) -->
+      <div class="header-row-top">
+        <div class="header-brand-group">
+          <div class="logo-box">
+            <svg class="logo-icon-svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/>
+              <path d="m8.5 8.5 7 7"/>
+            </svg>
+          </div>
+          <div class="brand-text-block">
+            <h1 class="brand-name">بديلك</h1>
+            <p class="brand-sub">بدائل الأدوية في مصر — بنفس المادة الفعالة والتركيز والشكل</p>
+          </div>
+        </div>
+
+        <div class="header-badge-pill" id="headerStatsBadge">
+          <span id="badgeGroups">982</span> مجموعة · <span id="badgeBrands">4041</span> اسم تجاري
+        </div>
+      </div>
+
+      <!-- Row 2: Full-width White Search Bar with Animated Typing Hint & Suggestions -->
+      <div class="search-bar-row">
+        <div class="search-input-wrapper">
+          <div class="search-icon-right">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F5A46" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.3-4.3"/>
+            </svg>
+          </div>
+
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="main-search-input" 
+            placeholder="اكتب اسم الدوا... مثال: كونكور، بانادول" 
+            autocomplete="off" 
+            aria-label="حقل البحث عن الدواء"
+          >
+
+          <!-- Animated typing hint inside search bar on the left -->
+          <div class="typing-hint-left" id="typingHint">
+            <span class="hint-label">جرب: </span><span class="hint-text" id="typingText">Augmentin</span>
+          </div>
+
+          <button id="clearBtn" class="search-clear-btn" style="display:none;" aria-label="مسح النص">✕</button>
+
+          <!-- Autocomplete Dropdown Popup -->
+          <div id="suggestionsDropdown" class="suggestions-dropdown"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2) BODY: TWO-COLUMN GRID (RTL, 24px gap) -->
+  <div class="page-body-container">
+    <div class="two-column-grid">
+
+      <!-- MAIN COLUMN (RIGHT - ~68%) -->
+      <main class="main-column" id="mainColumn">
+        
+        <!-- DEFAULT VIEW (Cards A, B, C) -->
+        <div id="defaultMainView" class="default-view-stack">
+          
+          <!-- Card A: Hero / Intro -->
+          <section class="ui-card hero-intro-card">
+            <h2 class="card-hero-title">اكتب اسم الدوا، وهات البدائل في ثانية</h2>
+            <p class="card-hero-desc">
+              اكتب الاسم التجاري زي ما هو مكتوب على العلبة (العربي أو الإنجليزي)، والتطبيق هيوريلك المادة الفعالة والتركيز والشكل، وقائمة البدائل المصرية اللي بنفس المادة والتركيز والشكل بالظبط.
+            </p>
+
+            <div class="hero-stats-row">
+              <div class="stat-tile">
+                <div class="stat-number" id="statTileGroups">982</div>
+                <div class="stat-label">مجموعة بدائل</div>
+              </div>
+              <div class="stat-tile">
+                <div class="stat-number" id="statTileBrands">4041</div>
+                <div class="stat-label">اسم تجاري</div>
+              </div>
+              <div class="stat-tile">
+                <div class="stat-number">كود</div>
+                <div class="stat-label">مطابقة بدون ذكاء اصطناعي</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Card B: Popular Names -->
+          <section class="ui-card popular-names-card">
+            <h3 class="card-section-title">أسماء مشهورة تجربها</h3>
+            <div class="chips-flex-wrap" id="popularChipsContainer">
+              <button class="popular-chip" data-query="VOLTAREN">VOLTAREN</button>
+              <button class="popular-chip" data-query="CRESTOR">CRESTOR</button>
+              <button class="popular-chip" data-query="GLUCOPHAGE">GLUCOPHAGE</button>
+              <button class="popular-chip" data-query="CONCOR">CONCOR</button>
+              <button class="popular-chip" data-query="AUGMENTIN">AUGMENTIN</button>
+              <button class="popular-chip" data-query="PANADOL ADVANCE">PANADOL ADVANCE</button>
+              <button class="popular-chip" data-query="NEXIUM">NEXIUM</button>
+              <button class="popular-chip" data-query="CIPRO">CIPRO</button>
+              <button class="popular-chip" data-query="KEPPRA">KEPPRA</button>
+              <button class="popular-chip" data-query="ZYRTEC">ZYRTEC</button>
+            </div>
+          </section>
+
+          <!-- Card C: How It Works -->
+          <section class="ui-card how-it-works-card">
+            <h3 class="card-section-title">إزاي بتشتغل البدائل هنا</h3>
+            <div class="steps-stack">
+              <div class="step-item">
+                <div class="step-icon-tile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F5A46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                  </svg>
+                </div>
+                <div class="step-content">
+                  <div class="step-title">اكتب الاسم</div>
+                  <div class="step-desc">بحث سريع ويتحمّل الأخطاء الإملائية البسيطة في كتابة الاسم.</div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-icon-tile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F5A46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/>
+                  </svg>
+                </div>
+                <div class="step-content">
+                  <div class="step-title">شوف المادة والتركيز والشكل</div>
+                  <div class="step-desc">بيانات الدوا اللي كتبته بالظبط زي المسجّل في القاعدة.</div>
+                </div>
+              </div>
+
+              <div class="step-item">
+                <div class="step-icon-tile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F5A46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/>
+                  </svg>
+                </div>
+                <div class="step-content">
+                  <div class="step-title">قارن البدائل</div>
+                  <div class="step-desc">كل الأسماء اللي بنفس المادة والتركيز والشكل — اضغط على أي اسم لعرض تفاصيله.</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <!-- SEARCH RESULTS VIEW (Replaces Cards A, B, C when search is active) -->
+        <div id="searchResultsView" class="search-results-view" style="display:none;"></div>
+
+      </main>
+
+      <!-- SIDEBAR (LEFT - ~30%) -->
+      <aside class="sidebar-column">
+        
+        <!-- Sidebar Card 1: Permanent Pharmacist Disclaimer -->
+        <div class="ui-card sidebar-card cream-disclaimer-card">
+          <div class="sidebar-card-header">
+            <h4 class="sidebar-card-title">قاعدة ثابتة</h4>
+            <div class="header-icon-wrap icon-green">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F5A46" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                <polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </div>
+          </div>
+          <p class="sidebar-disclaimer-text">
+            نفس المادة الفعالة والتركيز والشكل — المراجعة النهائية للصيدلي
+          </p>
+        </div>
+
+        <!-- Sidebar Card 2: Sensitive Medicine Alert -->
+        <div class="ui-card sidebar-card red-sensitive-card">
+          <div class="sidebar-card-header">
+            <h4 class="sidebar-card-title text-red">أدوية حساسة</h4>
+            <div class="header-icon-wrap icon-red">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#991b1b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/>
+                <line x1="12" y1="9" x2="12" y2="13"/>
+                <line x1="12" y1="17" x2="12.01" y2="17"/>
+              </svg>
+            </div>
+          </div>
+          <div class="sensitive-bold-line">استشر الصيدلي أو الدكتور قبل التغيير</div>
+          <div class="sensitive-keywords-dots">صرع • غدة • مميعات دم • سكر • ضغط</div>
+        </div>
+
+        <!-- Sidebar Card 3: How Substitutes Are Calculated -->
+        <div class="ui-card sidebar-card">
+          <h4 class="sidebar-card-title">إزاي بتتحسب البدائل؟</h4>
+          <p class="sidebar-body-text">
+            البدائل بتتحدد بكود من قاعدة البيانات فقط: نفس المادة الفعالة + نفس التركيز + نفس الشكل. مفيش أي اقتراح بديل أو جرعة بيتولّد تلقائيًا.
+          </p>
+          <div class="sidebar-mini-stats">
+            <div class="mini-stat-box">
+              <span class="mini-stat-num" id="sideStatGroups">982</span>
+              <span class="mini-stat-lbl">مجموعة</span>
+            </div>
+            <div class="mini-stat-box">
+              <span class="mini-stat-num" id="sideStatBrands">4041</span>
+              <span class="mini-stat-lbl">اسم</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Card 4: Report Error Prompt -->
+        <div class="ui-card sidebar-card">
+          <h4 class="sidebar-card-title">لقيت غلطة؟</h4>
+          <p class="sidebar-body-text">
+            كل كارت دوا فيه زر «بلّغ عن خطأ». ابعتلنا التصحيح والبيانات هتتراجع.
+          </p>
+          <button id="sidebarReportBtn" class="sidebar-report-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+              <line x1="4" y1="22" x2="4" y2="15"/>
+            </svg>
+            الإبلاغ عن تصحيح
+          </button>
+        </div>
+
+      </aside>
+
+    </div>
+  </div>
+
+  <!-- Modal Form for Reporting Errors -->
+  <div id="reportModal" class="modal-overlay">
+    <div class="modal-content">
+      <button id="closeModalBtn" class="modal-close" aria-label="إغلاق">✕</button>
+      <h3 class="modal-header">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#991b1b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+          <line x1="4" y1="22" x2="4" y2="15"/>
+        </svg>
+        الإبلاغ عن خطأ أو تصحيح
+      </h3>
+      <form id="reportForm">
+        <div class="form-group">
+          <label class="form-label" for="reportedDrugName">الدواء المراد تصحيحه:</label>
+          <input type="text" id="reportedDrugName" class="form-input-readonly" readonly placeholder="اسم الدواء">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="reportDetails">تفاصيل الخطأ أو التصحيح المطلوب:</label>
+          <textarea id="reportDetails" class="form-textarea" placeholder="اكتب ملاحظتك هنا (مثل: تركيز غير دقيق، اسم دواء ناقص، إلخ)..." required></textarea>
+        </div>
+        <button type="submit" class="btn-submit">إرسال التصحيح للمراجعة</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JavaScript Entry Point -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
