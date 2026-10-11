@@ -1,0 +1,18 @@
+{
+  "name": "بديلك - بدائل الأدوية في مصر",
+  "short_name": "بديلك",
+  "description": "أسرع محرك بحث عن بدائل الأدوية المصرية بالاسم والمادة الفعالة والتركيز.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0F5A46",
+  "theme_color": "#0F5A46",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
