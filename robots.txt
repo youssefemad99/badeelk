@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://youssefemad99.github.io/badeelk/sitemap.xml
