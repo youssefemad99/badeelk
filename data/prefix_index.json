@@ -1,0 +1,238 @@
+{
+  "en_other_en": {
+    "chunk": "data/chunks/en_other_en.json",
+    "count": 24
+  },
+  "ar_و": {
+    "chunk": "data/chunks/ar_و.json",
+    "count": 273
+  },
+  "ar_ف": {
+    "chunk": "data/chunks/ar_ف.json",
+    "count": 3397
+  },
+  "en_m": {
+    "chunk": "data/chunks/en_m.json",
+    "count": 2488
+  },
+  "ar_م": {
+    "chunk": "data/chunks/ar_م.json",
+    "count": 2499
+  },
+  "en_l": {
+    "chunk": "data/chunks/en_l.json",
+    "count": 1621
+  },
+  "ar_ل": {
+    "chunk": "data/chunks/ar_ل.json",
+    "count": 1592
+  },
+  "en_p": {
+    "chunk": "data/chunks/en_p.json",
+    "count": 2224
+  },
+  "ar_ب": {
+    "chunk": "data/chunks/ar_ب.json",
+    "count": 3679
+  },
+  "en_a": {
+    "chunk": "data/chunks/en_a.json",
+    "count": 3070
+  },
+  "ar_ا": {
+    "chunk": "data/chunks/ar_ا.json",
+    "count": 5131
+  },
+  "en_n": {
+    "chunk": "data/chunks/en_n.json",
+    "count": 1504
+  },
+  "ar_ن": {
+    "chunk": "data/chunks/ar_ن.json",
+    "count": 1494
+  },
+  "en_c": {
+    "chunk": "data/chunks/en_c.json",
+    "count": 3191
+  },
+  "ar_ك": {
+    "chunk": "data/chunks/ar_ك.json",
+    "count": 3016
+  },
+  "en_d": {
+    "chunk": "data/chunks/en_d.json",
+    "count": 1938
+  },
+  "ar_د": {
+    "chunk": "data/chunks/ar_د.json",
+    "count": 1937
+  },
+  "en_g": {
+    "chunk": "data/chunks/en_g.json",
+    "count": 1362
+  },
+  "ar_ج": {
+    "chunk": "data/chunks/ar_ج.json",
+    "count": 1653
+  },
+  "en_o": {
+    "chunk": "data/chunks/en_o.json",
+    "count": 1258
+  },
+  "en_r": {
+    "chunk": "data/chunks/en_r.json",
+    "count": 1896
+  },
+  "ar_ر": {
+    "chunk": "data/chunks/ar_ر.json",
+    "count": 1878
+  },
+  "en_b": {
+    "chunk": "data/chunks/en_b.json",
+    "count": 1721
+  },
+  "en_z": {
+    "chunk": "data/chunks/en_z.json",
+    "count": 524
+  },
+  "ar_ز": {
+    "chunk": "data/chunks/ar_ز.json",
+    "count": 634
+  },
+  "en_s": {
+    "chunk": "data/chunks/en_s.json",
+    "count": 3262
+  },
+  "ar_س": {
+    "chunk": "data/chunks/ar_س.json",
+    "count": 3875
+  },
+  "en_v": {
+    "chunk": "data/chunks/en_v.json",
+    "count": 1539
+  },
+  "en_j": {
+    "chunk": "data/chunks/en_j.json",
+    "count": 297
+  },
+  "en_y": {
+    "chunk": "data/chunks/en_y.json",
+    "count": 67
+  },
+  "ar_ي": {
+    "chunk": "data/chunks/ar_ي.json",
+    "count": 340
+  },
+  "en_e": {
+    "chunk": "data/chunks/en_e.json",
+    "count": 1545
+  },
+  "en_i": {
+    "chunk": "data/chunks/en_i.json",
+    "count": 1161
+  },
+  "en_f": {
+    "chunk": "data/chunks/en_f.json",
+    "count": 1635
+  },
+  "en_x": {
+    "chunk": "data/chunks/en_x.json",
+    "count": 166
+  },
+  "en_ج": {
+    "chunk": "data/chunks/en_ج.json",
+    "count": 1
+  },
+  "en_t": {
+    "chunk": "data/chunks/en_t.json",
+    "count": 1729
+  },
+  "ar_ت": {
+    "chunk": "data/chunks/ar_ت.json",
+    "count": 1683
+  },
+  "en_h": {
+    "chunk": "data/chunks/en_h.json",
+    "count": 1231
+  },
+  "ar_ه": {
+    "chunk": "data/chunks/ar_ه.json",
+    "count": 1216
+  },
+  "en_w": {
+    "chunk": "data/chunks/en_w.json",
+    "count": 265
+  },
+  "ar_ش": {
+    "chunk": "data/chunks/ar_ش.json",
+    "count": 184
+  },
+  "en_u": {
+    "chunk": "data/chunks/en_u.json",
+    "count": 528
+  },
+  "en_k": {
+    "chunk": "data/chunks/en_k.json",
+    "count": 659
+  },
+  "ar_ث": {
+    "chunk": "data/chunks/ar_ث.json",
+    "count": 150
+  },
+  "en_q": {
+    "chunk": "data/chunks/en_q.json",
+    "count": 184
+  },
+  "ar_ص": {
+    "chunk": "data/chunks/ar_ص.json",
+    "count": 142
+  },
+  "ar_أ": {
+    "chunk": "data/chunks/ar_أ.json",
+    "count": 1491
+  },
+  "ar_ح": {
+    "chunk": "data/chunks/ar_ح.json",
+    "count": 6
+  },
+  "en_س": {
+    "chunk": "data/chunks/en_س.json",
+    "count": 1
+  },
+  "en_م": {
+    "chunk": "data/chunks/en_م.json",
+    "count": 1
+  },
+  "ar_خ": {
+    "chunk": "data/chunks/ar_خ.json",
+    "count": 4
+  },
+  "en_د": {
+    "chunk": "data/chunks/en_د.json",
+    "count": 1
+  },
+  "ar_ق": {
+    "chunk": "data/chunks/ar_ق.json",
+    "count": 1
+  },
+  "en_ف": {
+    "chunk": "data/chunks/en_ف.json",
+    "count": 1
+  },
+  "ar_غ": {
+    "chunk": "data/chunks/ar_غ.json",
+    "count": 3
+  },
+  "ar_چ": {
+    "chunk": "data/chunks/ar_چ.json",
+    "count": 1
+  },
+  "ar_ذ": {
+    "chunk": "data/chunks/ar_ذ.json",
+    "count": 1
+  },
+  "ar_إ": {
+    "chunk": "data/chunks/ar_إ.json",
+    "count": 800
+  }
+}

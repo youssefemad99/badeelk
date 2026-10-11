@@ -1,0 +1,916 @@
+{
+  "auditDate": "2026-10-11T12:00:00Z",
+  "priceLastUpdated": "11 أكتوبر 2026",
+  "priceLastUpdatedEn": "October 11, 2026",
+  "thresholds": {
+    "LOW": 0.4,
+    "HIGH": 2.5
+  },
+  "totalAudited": 31148,
+  "verifiedCount": 28342,
+  "correctedCount": 307,
+  "unverifiedCount": 2499,
+  "flaggedCount": 2499,
+  "flaggedSamples": [
+    {
+      "id": "otribaby-10-nasal-aspirator-refills--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "OTRIBABY 10 NASAL ASPIRATOR REFILLS",
+      "brandAr": "أوتريبابي 10 أسبيراتور ريفيللس",
+      "price": 75.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "u-richi-body-lotion--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "U-RICHI BODY LOTION",
+      "brandAr": "أو-ريتشي بودي",
+      "price": 27.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "elastic-bandage--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ELASTIC BANDAGE",
+      "brandAr": "إلاستيك بانداجي",
+      "price": 80.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "ego-mix-chocolate-20-pieces--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ego mix chocolate 20 pieces",
+      "brandAr": "ايجو ميكس شيكولاتة 20 قطعة",
+      "price": 56.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "ivybears-womens-hair-60-gummies--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ivybears womens hair 60 gummies",
+      "brandAr": "ايفيبيرز وومن هير للسيدات 60 قطعة",
+      "price": 888.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "ocuvite-lutein--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ocuvite lutein",
+      "brandAr": "اوكيوفيت لوتين 30 قرص",
+      "price": 32.4,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "ivybears-vibrant-skin-60-gummies--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ivybears vibrant skin 60 gummies",
+      "brandAr": "ايفيبيرز فيتامين سكين 60 قطعة",
+      "price": 888.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "aape-renewal-mask-10-pcs--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "aape renewal mask 10 pcs",
+      "brandAr": "ايبي رينيوال ماسك 10 قطع",
+      "price": 950.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "ivybears-mens-hair-60-gummies--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ivybears mens hair 60 gummies",
+      "brandAr": "ايفيبيرز للرجال فيتامين للشعر 60 قطعة",
+      "price": 888.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "otribaby-refill-10-nasal-aspirator--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "otribaby refill 10 nasal aspirator",
+      "brandAr": "اوتريبيبي 10",
+      "price": 75.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "ultra-woman-50-plus-120-coated-caplets-illegal-import--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ultra woman 50 plus 120 coated caplets (illegal import",
+      "brandAr": "الترا وومن 50 بلس 120 قرص",
+      "price": null,
+      "medianPrice": 217.5,
+      "reason": "PRICE_MISSING"
+    },
+    {
+      "id": "ultra-woman-50-plus-60-coated-caplets-illegal-import--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ultra woman 50 plus 60 coated caplets (illegal import",
+      "brandAr": "الترا وومن 50 بلس 120 كابليتس",
+      "price": null,
+      "medianPrice": 217.5,
+      "reason": "PRICE_MISSING"
+    },
+    {
+      "id": "silk-palst-2-2-red-tape--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "silk palst 2*2 red tape",
+      "brandAr": "بلاستر طبي 2*2 احمر",
+      "price": 15.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "benzyl-soap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "benzyl soap",
+      "brandAr": "بنزايل صابونة",
+      "price": 6.75,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "b12-alex-20-film--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "B12 ALEX 20 FILM",
+      "brandAr": "ب12 اليكس 20 فيلم",
+      "price": 80.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "talc-powder--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "talc powder",
+      "brandAr": "بودرة تلك",
+      "price": 20.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "pectol-8-lozenges--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "PECTOL 8 LOZENGES",
+      "brandAr": "بيكتول",
+      "price": 25.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "baby-nadif-nasal-aspirator--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "baby nadif nasal aspirator",
+      "brandAr": "بيبي ناديف بخاخ للانف",
+      "price": 750.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "pantex-hair-tonic-lotion-for-dry-hair--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "pantex hair tonic lotion for dry hair",
+      "brandAr": "بانتكس لوشن مقوي للشعر للشعر الجاف",
+      "price": 17.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "pantex-hair-tonic-lotion-for-greasy-hair--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "pantex hair tonic lotion for greasy hair",
+      "brandAr": "بانتكس تونك لوسيون للشعر الجاف والعادي 120 مل",
+      "price": 65.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "tempo-cool-patches--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "tempo cool patches",
+      "brandAr": "تمبو كول كمادات",
+      "price": 53.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "tiger-king-cap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "tiger king cap",
+      "brandAr": "تايجر كينج كبسول",
+      "price": 50.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "tiger-porous-plaster-50-patches--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "tiger porous plaster 50 patches",
+      "brandAr": "تايجر لصقة ظهر النمر بلاستر 50 باتش",
+      "price": 850.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "tupair-hair-lotion-with-serum--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "TUPAIR HAIR LOTION WITH SERUM",
+      "brandAr": "توباير هاير ويث سيروم",
+      "price": 60.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "معجون اسنان سيجنال وسط",
+      "brandAr": "سيجنال وسط معجون اسنان",
+      "price": 35.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "jevacystol-cap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "jevacystol cap",
+      "brandAr": "جيفاسيستول كبسول",
+      "price": 50.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "gola-20-pieces--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "gola  20 pieces",
+      "brandAr": "جولا 20 قطعة",
+      "price": 50.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "dandivera-soap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "dandivera soap",
+      "brandAr": "داندي فيرا صابونة",
+      "price": 50.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "rejuve-md-hand-transformative-due--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "rejuve md hand transformative due",
+      "brandAr": "ريجوف ام دي",
+      "price": 829.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "royal-royagest-10-filter-bags--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "royal royagest 10 filter bags",
+      "brandAr": "رويال روياجيست 10 اكياس فلتر",
+      "price": 10.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "royal-royalact-10-filter-bags--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "royal royalact 10 filter bags",
+      "brandAr": "رويال رويالاكت 10 اكياس فلتر",
+      "price": 10.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "royal-royapect-10-filter-bags--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "royal royapect 10 filter bags",
+      "brandAr": "رويال رويابكت 10 اكياس فلتر",
+      "price": 10.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "royal-royapetro-urinary-trat-10-filter-bags--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "royal royapetro urinary trat 10 filter bags",
+      "brandAr": "رويال رويابترو للمسالك 10 اكياس فلتر",
+      "price": 10.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "royal-royatens-blood-pressure-10-filter-bags--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "royal royatens blood pressure 10 filter bags",
+      "brandAr": "رويال روياتنس لضغط الدم 10 اكياس فلتر",
+      "price": 10.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "royal-royapetro-urinary-tract-10-filter-bags--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "ROYAL ROYAPETRO URINARY TRACT 10 FILTER BAGS",
+      "brandAr": "رويال رويابيترو أوريناري تراكت 10 فيلتير باجس",
+      "price": 10.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "starville-whitening-face-mask-sheet--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "starville whitening face mask sheet",
+      "brandAr": "ستارفيل ماسك للوجه للتفتيح",
+      "price": 55.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "scaro-silicone-1-sheet-5-20-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scaro silicone 1 sheet 5*20 cm",
+      "brandAr": "سكارو سيليكون 1 شيت 5*20 سم",
+      "price": 650.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "spiriva-handihaler-device--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "spiriva handihaler device",
+      "brandAr": "سبيريفا جهاز استنشاق بمفرده",
+      "price": 9.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "surepal-10-pen-green--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "SUREPAL 10 - PEN (GREEN",
+      "brandAr": "سوريبال 10 - بين",
+      "price": 9000.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "surepal-5-pen-white--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "SUREPAL 5 - PEN (WHITE",
+      "brandAr": "سوريبال 5 - بين",
+      "price": 9000.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "scar-fx-silicone-1-sheet-10x20-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scar fx silicone 1 sheet 10x20 cm",
+      "brandAr": "سكار اف اكس سيليكون شيت 10*20سم",
+      "price": 1870.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "scar-fx-silicone-1-sheet-2-5x30-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scar fx silicone 1 sheet 2.5x30 cm",
+      "brandAr": "سكار اف اكس سيليكون شيت 2.5*30سم",
+      "price": 1130.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "scar-fx-silicone-1-sheet-2-5x55-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scar fx silicone 1 sheet 2.5x55 cm",
+      "brandAr": "سكار اف اكس سيليكون شيت 2.5*55سم",
+      "price": 1590.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "scar-fx-silicone-1-sheet-3-75x22-5-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scar fx silicone 1 sheet 3.75x22.5 cm",
+      "brandAr": "سكار اف اكس سيليكون شيت 3.75*22.5سم",
+      "price": 1130.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "scar-fx-silicone-1-sheet-3-75x7-5-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scar fx silicone 1 sheet 3.75x7.5 cm",
+      "brandAr": "سكار اف اكس سيليكون شيت 3.75*7.5سم",
+      "price": 980.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "scar-fx-silicone-1-sheet-7-5x12-5-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "scar fx silicone 1 sheet 7.5x12.5 cm",
+      "brandAr": "سكار اف اكس سيليكون شيت 7.5*12.5سم",
+      "price": 1190.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "superkids-water-wipes-72-pieces--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "SUPERKIDS WATER WIPES 72 PIECES",
+      "brandAr": "سوبيركيدس واتير ويبيس 72 بيسيس",
+      "price": 80.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "scaro-silicone-1-sheet-5x20-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "SCARO SILICONE 1 SHEET 5X20 CM",
+      "brandAr": "سكارو سيليكوني 1 شيت 5كس20 كم",
+      "price": 650.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "soft-collar--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "SOFT COLLAR",
+      "brandAr": "سوفت كوللار",
+      "price": 46.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "spiriva-handihaler-device-n-a--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "SPIRIVA HANDIHALER DEVICE (N/A",
+      "brandAr": "سبيريفا هانديهالير ديفيسي",
+      "price": 9.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "fungisalt-soap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "fungisalt soap",
+      "brandAr": "فنجيسولت صابون",
+      "price": 45.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "farmactive-pu-foam-non-adhesive-dressing-20x20-cm--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "FARMACTIVE PU FOAM NON ADHESIVE DRESSING 20X20 CM",
+      "brandAr": "فارماكتيفي بو نون أذيسيفي دريسسينج 20كس20 كم",
+      "price": 800.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "vitalita-v1-deodorant-roll-on--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "vitalita v1 deodorant roll-on",
+      "brandAr": "فيتاليتا في 1 رول اون",
+      "price": 79.95,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "cannula-i-v-infusion--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "cannula i.v. infusion",
+      "brandAr": "كانيولا محاليل وريدية",
+      "price": 15.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "carry-top-soap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "carry top soap",
+      "brandAr": "كاري توب صابون",
+      "price": 50.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "candy-honey-lemon-12-lozenges--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "candy honey&lemon 12 lozenges",
+      "brandAr": "كاندي عسل و ليمون 12 قرص",
+      "price": 35.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "carnivita-chewable-tab--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "carnivita chewable tab",
+      "brandAr": "كارنيفيتا اقراص للمضغ 30 قرص",
+      "price": 43.5,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "qv-bath-oil-1-litre--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "qv bath oil 1 litre",
+      "brandAr": "كيو في زيت 1 لتر",
+      "price": 799.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "knee-brace--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "KNEE BRACE",
+      "brandAr": "كني براسي",
+      "price": 61.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "bloodstop-ix-10x20-cm-12-patches--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "bloodstop ix 10x20 cm 12 patches",
+      "brandAr": "لاصقات وقف النزيف 10*20سم 12 لاصقة",
+      "price": 23760.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "bloodstop-ix-5x10-cm-12-patches--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "bloodstop ix 5x10 cm 12 patches",
+      "brandAr": "لاصقات وقف النزيف 5*10سم 12 لاصقة",
+      "price": 17400.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "bloodstop-ix-5x35-cm-12-patches--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "bloodstop ix 5x35 cm 12 patches",
+      "brandAr": "لاصقات وقف النزيف 5*35سم 12 لاصقة",
+      "price": 23760.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "lubmo-sacral-belt--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "LUBMO-SACRAL BELT",
+      "brandAr": "لوبمو-ساكرال بيلت",
+      "price": 64.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "melano-sulfur-soap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "melano sulfur soap",
+      "brandAr": "ميلانو صابونة كبريت",
+      "price": 60.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "melano-shea-turmeric-soap--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "melano shea turmeric soap",
+      "brandAr": "ميلانو صابون بالشيا والكركم",
+      "price": 48.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "move-free--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "move free",
+      "brandAr": "موف فري 120 قرص مستورد",
+      "price": 820.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "molped-extra-hygiene-pads-double-2-1--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "molped extra hygiene pads double 2 *1",
+      "brandAr": "مولبد حفاضات دابل 2 *1",
+      "price": 55.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "moov-massage-rutex--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "moov massage rutex",
+      "brandAr": "موف مساج روتكس",
+      "price": 15.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "mebo-5-cooling-patches--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "mebo 5 cooling patches",
+      "brandAr": "ميبو كولينج 5 باتشات",
+      "price": 50.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "novopen-echo-insulin-pen--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "NOVOPEN ECHO INSULIN PEN",
+      "brandAr": "نوفوبين إتشو إنسولين بين",
+      "price": 947.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "nephrosteril-7-i-v-infusion--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "nephrosteril 7% i.v.infusion",
+      "brandAr": "نفروستريل 7% للحقن الوريدي",
+      "price": 64.1,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "herbaland-kids-immune-60-gummies--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "herbaland kids immune 60 gummies",
+      "brandAr": "هيربالاند كيدز اميون 60 قطعة",
+      "price": 633.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "hard-collar--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "HARD COLLAR",
+      "brandAr": "هارد كوللار",
+      "price": 72.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "wrist-brace--pharmaceutical",
+      "key": "UNKNOWN|UNKNOWN|مستحضر صيدلي / PHARMACEUTICAL",
+      "brandEn": "WRIST BRACE",
+      "brandAr": "وريست براسي",
+      "price": 33.0,
+      "medianPrice": 217.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "bisadyl-5-mg-tablets",
+      "key": "BISACODYL|5 MG|أقراص / TABLETS",
+      "brandEn": "BISADYL",
+      "brandAr": "بيساديل 30 إ.ك",
+      "price": 28.5,
+      "medianPrice": 3.75,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "febrimol-500-mg-tablets",
+      "key": "PARACETAMOL(ACETAMINOPHEN)|500 MG|أقراص / TABLETS",
+      "brandEn": "FEBRIMOL",
+      "brandAr": "فيبريمول",
+      "price": 3.5,
+      "medianPrice": 24.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "panadol-extra-optizorb-48-f-c-tabs--tablets",
+      "key": "CAFFEINE+PARACETAMOL(ACETAMINOPHEN)|UNKNOWN|أقراص / TABLETS",
+      "brandEn": "panadol extra optizorb 48 f.c. tabs",
+      "brandAr": "بنادول اكسترا اوبتيزورب 48 قرص",
+      "price": 116.0,
+      "medianPrice": 42.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "panadol-extra-48-f-c-tabs--tablets",
+      "key": "CAFFEINE+PARACETAMOL(ACETAMINOPHEN)|UNKNOWN|أقراص / TABLETS",
+      "brandEn": "panadol extra 48 f.c. tabs",
+      "brandAr": "بانادول اكسترا 48 قرص",
+      "price": 108.0,
+      "medianPrice": 42.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "abstain-sr-150-mg-tablets",
+      "key": "BUPROPION|150 MG|أقراص / TABLETS",
+      "brandEn": "ABSTAIN SR",
+      "brandAr": "أبستاين سر",
+      "price": 20.0,
+      "medianPrice": 111.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "fumipan-150-mg-tablets",
+      "key": "BUPROPION|150 MG|أقراص / TABLETS",
+      "brandEn": "fumipan",
+      "brandAr": "فوميبان 150مجم 10 اقراص ممتدة المفعول",
+      "price": 12.0,
+      "medianPrice": 111.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "wellinta-150-mg-tablets",
+      "key": "BUPROPION|150 MG|أقراص / TABLETS",
+      "brandEn": "WELLINTA",
+      "brandAr": "ويللينتا",
+      "price": 291.0,
+      "medianPrice": 111.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "renitec-20-mg-tablets",
+      "key": "ENALAPRIL|20 MG|أقراص / TABLETS",
+      "brandEn": "RENITEC",
+      "brandAr": "رينيتيك",
+      "price": 60.0,
+      "medianPrice": 21.75,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "renitec-5-mg-tablets",
+      "key": "ENALAPRIL|5 MG|أقراص / TABLETS",
+      "brandEn": "RENITEC",
+      "brandAr": "رينيتيك",
+      "price": 30.6,
+      "medianPrice": 7.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "acc-long-600-mg-tablets",
+      "key": "ACETYLCYSTEINE|600 MG|أقراص / TABLETS",
+      "brandEn": "ACC LONG",
+      "brandAr": "أكك لونج 5 إففيرفيسسينت",
+      "price": 19.2,
+      "medianPrice": 71.5,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "neurobion-20-coated-tab--tablets",
+      "key": "VITAMIN B1+VITAMIN B6+VITAMIN B12|UNKNOWN|أقراص / TABLETS",
+      "brandEn": "NEUROBION 20 COATED TAB",
+      "brandAr": "نيوروبيون 20 كواتيد",
+      "price": 21.0,
+      "medianPrice": 114.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "accent-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "ACCENT CREAM",
+      "brandAr": "أكسينت",
+      "price": 30.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "everyouth-total-eye-care-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "EVERYOUTH TOTAL EYE CARE CREAM",
+      "brandAr": "إفيريوث توتال إيي كاري",
+      "price": 425.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "oraz-max-oral-gel-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "oraz max oral gel",
+      "brandAr": "اوراز ماكس جل مرطب للفم 30 جم",
+      "price": 24.5,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "ammoria-rejuvinating-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "ammoria rejuvinating cream",
+      "brandAr": "اموريا ريجوفينتينج كريم 30 جم",
+      "price": 450.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "beata-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "beata cream",
+      "brandAr": "بييتا كريم 30 جم",
+      "price": 29.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "panthenol-memphis-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "panthenol memphis cream",
+      "brandAr": "بانثينول ممفيس كريم 30 جم",
+      "price": 24.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "renoderm-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "renoderm cream",
+      "brandAr": "رينوديرم كريم 30 جم",
+      "price": 12.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "zinco-baby-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "zinco-baby cream",
+      "brandAr": "زنكو بيبي كريم 30جم",
+      "price": 5.5,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "solodex-whiteactiv-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "SOLODEX WHITEACTIV CREAM",
+      "brandAr": "سولوديكس وهيتياكتيف",
+      "price": 325.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "she-daisy-gel-for-female-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "SHE DAISY GEL FOR FEMALE",
+      "brandAr": "شي دايسي فيمالي",
+      "price": 245.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "fast-care-cream-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "FAST CARE CREAM",
+      "brandAr": "فاست كاري",
+      "price": 14.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_LOW"
+    },
+    {
+      "id": "meloscar-gel-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "meloscar gel",
+      "brandAr": "ميلوسكار جل 30 جم",
+      "price": 580.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "high-do-gel-30-gm-topical",
+      "key": "UNKNOWN|30 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "HIGH-DO GEL",
+      "brandAr": "هيغ-دو",
+      "price": 249.0,
+      "medianPrice": 89.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "agera-anti-scar-silicon-gel-50-gm-topical",
+      "key": "UNKNOWN|50 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "AGERA ANTI-SCAR SILICON GEL",
+      "brandAr": "أجيرا أنتي-سكار سيليكون",
+      "price": 650.0,
+      "medianPrice": 75.0,
+      "reason": "PRICE_TOO_HIGH"
+    },
+    {
+      "id": "alfaskin-cream-50-gm-topical",
+      "key": "UNKNOWN|50 GM|كريم ومرهم / TOPICAL",
+      "brandEn": "ALFASKIN CREAM",
+      "brandAr": "ألفاسكين",
+      "price": 24.0,
+      "medianPrice": 75.0,
+      "reason": "PRICE_TOO_LOW"
+    }
+  ]
+}

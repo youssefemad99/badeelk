@@ -1,0 +1,16 @@
+{
+  "totalRecords": 37094,
+  "countWithArabicName": 37094,
+  "countWithPrice": 37042,
+  "totalSubstituteGroups": 16808,
+  "duplicatesRemoved": 14538,
+  "missingActiveIngredient": 3516,
+  "missingConcentration": 7931,
+  "sources": [
+    "Egyptian Drug Authority (EDA) Public Registry",
+    "Official Egyptian Pharmaceutical Price Index 2026",
+    "WHO ATC/DDD Chemical Index",
+    "openFDA Generic Mappings"
+  ],
+  "lastUpdated": "2026-10-11"
+}
